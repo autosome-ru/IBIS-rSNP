@@ -1,0 +1,31 @@
+Transcription factor	TF Family / DNA-binding domain	Primary Discipline	ChIP-Seq	Genomic HT-SELEX	HT-SELEX	SMiLE-Seq	PBM
+GCM1	GCM	A2G	Test	Test	Train/Test	Train	Train/Test
+MKX	Homeodomain	A2G	Test	Test	Train/Test	Train	Train/Test
+MSANTD1	MADF	A2G	Test	Test	Train/Test	Train	Train/Test
+TPRX1	Homeodomain	A2G	Test	Test	Train/Test	Train/Test	Train/Test
+ZFTA	BED ZF	A2G	Test	Test	Train	Train	Train/Test
+MYPOP	Myb/SANT	A2G	Test	Test	Train/Test	-	Train/Test
+CREB3L3	bZIP	A2G	Test	Test	Train/Test	Train	-
+FIZ1	C2H2 ZF	A2G	Test	Test	Train/Test	Train	-
+ZNF500	C2H2 ZF	A2G	Test	Test	Train	Train	-
+ZNF780B	C2H2 ZF	A2G	Test	Test	Train/Test	Train	-
+ZNF831	C2H2 ZF	A2G	Test	Test	Train/Test	Train	-
+ZNF286B	C2H2 ZF	A2G	Test	Test	Train/Test	-	-
+ZBTB47	C2H2 ZF	A2G	Test	Test	Train/Test	-	-
+ZNF721	C2H2 ZF	A2G	Test	Test	Train/Test	-	-
+SP140L	SAND	A2G	Test	Test	Train/Test	Train	Train/Test
+USF3	bHLH	G2A	Train/Test	Train/Test	Test	Test	Test
+ZBED2	BED ZF	G2A	Train/Test	Train/Test	Test	Test	Test
+MYF6	bHLH	G2A	Train/Test	Train/Test	Test	-	Test
+SALL3	C2H2 ZF	G2A	Train/Test	Train/Test	Test	-	-
+CAMTA1	CG-1	G2A	Train	Train/Test	Test	Test	-
+ZNF367	C2H2 ZF	G2A	Train/Test	Train/Test	Test	Test	-
+ZNF648	C2H2 ZF	G2A	Train/Test	Train/Test	Test	Test	-
+ZNF518B	C2H2 ZF	G2A	Train/Test	Train/Test	Test	-	-
+ZBED5	BED ZF	G2A	Train/Test	Train/Test	Test	Test	Test
+ZNF251	C2H2 ZF	G2A	Train/Test	Train/Test	Test	Test	-
+ZNF493	C2H2 ZF	G2A	Train/Test	Train/Test	Test	Test	-
+ZNF20	C2H2 ZF	G2A	Train/Test	Train	Test	-	-
+LEUTX	Homeodomain	G2A	Train/Test	Train/Test	Test	-	Test
+PRDM13	C2H2 ZF	G2A	Train/Test	Train/Test	Test	Test	-
+ZNF395	C2H2 ZF	G2A	Train/Test	Train/Test	Test	Test	-
