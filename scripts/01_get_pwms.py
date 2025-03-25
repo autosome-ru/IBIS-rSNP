@@ -21,7 +21,7 @@ for i, path in enumerate(file_paths):
     pwms = text.split('\n\n')
     team = path.split('/')[-2].replace('.', '')
     if i == last:
-        team = 'mex1'
+        team = 'mex4'
     for pwm in pwms:
         header = pwm.split('\n')[0][1:].strip().replace(' ', '@')
         tf = header.split('@')[0]
@@ -33,8 +33,6 @@ for i, path in enumerate(file_paths):
             new_line = line.strip().split(' ')
             pwm_table.append(' '.join([convert(x) for x in new_line]))
         filename = 'pwms/' + header + '@' + team + '.pwm'
-        if i == last:
-            filename = 'pwms/' + tf + '@' + team + '@' + team + '.pwm'
         with open(filename, 'w') as pwm_file:
             print(header, file=pwm_file)
             print('\n'.join(pwm_table), file=pwm_file)
