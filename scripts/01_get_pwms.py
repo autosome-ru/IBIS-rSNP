@@ -9,8 +9,8 @@ def convert(freq_str):
     return str(np.log2( (freq + 1e-5)  / 0.25))
 
 
-file_paths = glob('/home/nikgr/ibis_validation/submissions/*/PWMS.txt')
-file_paths.append('/home/ivankozin/ibis_analysis/data/top4_MEX_motifs_for_IBIS_fixed.txt')
+file_paths = glob('pwm_submissions/*.txt')
+file_paths.append('mex4/top4_MEX_motifs_for_IBIS_fixed.txt')
 asb_finals = pd.read_table('finals.tsv')
 tfs = set(asb_finals['Transcription factor'])
 
@@ -19,7 +19,7 @@ for i, path in enumerate(file_paths):
     print(path)
     text = open(path).read()
     pwms = text.split('\n\n')
-    team = path.split('/')[-2].replace('.', '')
+    team = path.split('/')[-1].replace('.txt', '').replace('.', '')
     if i == last:
         team = 'mex4'
     for pwm in pwms:
