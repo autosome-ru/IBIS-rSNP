@@ -46,7 +46,6 @@ Benchmarks **PWM** and **AAA** models on regulatory SNPs from allele-specific bi
 * `tables/pwm_auc.tsv` — PWM AUC scores
 * `ibis_auc_scores.tsv` — combined PWM + AAA scores
 * `figures/` — plots and curve data:
-
   * `auc_box.png` — AUC boxplot
   * `aaa_auc_weighed_mean_strip.png` — weighted mean AUC strip plot (AAA)
   * `curves_plots/A2G.*`, `curves_plots/G2A.*` — summary concordance curves (PDF/PNG/SVG)
