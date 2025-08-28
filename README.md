@@ -1,4 +1,4 @@
-# Allele-specificity benchmaring of IBIS PWM and AAA submissions
+# Allele-specificity benchmarking of IBIS PWM and AAA submissions
 
 Benchmarks **PWM** and **AAA** models on regulatory SNPs from allele-specific binding (ChIP-seq, GHT-SELEX).
 
