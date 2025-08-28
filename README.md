@@ -7,12 +7,16 @@ Benchmarks **PWM** and **AAA** models on regulatory SNPs from allele-specific bi
 
 * **Scripts** (`scripts/`)
 
-  * `01_get_pwms.py` — convert submitted PFMs → PWMs
+  * `01_get_pwms.py` — convert submitted PFMs to PWMs
   * `02_generate_uniform_thrs.sh` — create PERFECTOS-APE thresholds
   * `03_extract_asb.py` — (optional) rebuild ASB SNP tables
   * `04_make_filelist_for_annotation.py` — generate a file with all SNP–PWM–THR combinations used by `05_run_annotation.sh`
-  * `05_run_annotation.sh` — example batch run of annotation (edit paths)
-  * `ape.jar` — PERFECTOS-APE tool
+  * `05_run_annotation.sh` — run of annotation
+  * additional files
+      * `ape.jar` — PERFECTOS-APE tool
+      * `_run_perfectos.sh` — run multiple annotation processes in parallel
+      * `_annotate_with_motifs.py` — annotation of a single SNP-PWM-THR combination
+
 
 * **Notebooks** (`notebooks/`)
 
