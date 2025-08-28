@@ -20,8 +20,8 @@ def filter_asb(asb, tag):
             table.to_csv(path, index=False, sep='\t')
 
 
-chipseq = pd.read_table('/home/vladimirnoz/AS_GHT_SELEX/ASB/hughes_motifs_build/chipseq.tsv')
+chipseq = pd.read_table('/home/vladimirnoz/Projects/Codebook_Perspectives/AS_CHS_GHTS/build/chipseq.tsv')
 filter_asb(chipseq, 'chipseq')
 
-selex = pd.read_table('/home/vladimirnoz/AS_GHT_SELEX/ASB/hughes_motifs_build/selex.tsv')
+selex = pd.read_table('/home/vladimirnoz/Projects/Codebook_Perspectives/AS_CHS_GHTS/build/selex.tsv')
 filter_asb(selex, 'selex')
